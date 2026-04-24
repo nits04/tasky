@@ -79,7 +79,6 @@ tasky/
 ```bash
 cd backend
 cp .env.example .env
-# Fill in MONGODB_URI, JWT_SECRET, and optional Google OAuth/email values
 npm install
 npm run dev
 ```
@@ -151,7 +150,7 @@ EMAIL_FROM=noreply@tasky.app
 | `task:typing` | Bidirectional | Typing indicator |
 | `user:presence` | Server → Client | Online/offline status |
 
-## Deployment
+## Deployment inprogress
 
 ### Frontend → Vercel
 1. Push to GitHub, import repo in [vercel.com](https://vercel.com)
@@ -161,7 +160,7 @@ EMAIL_FROM=noreply@tasky.app
 1. Push to GitHub, New Web Service in [render.com](https://render.com)
 2. Connect repo, set env vars from `render.yaml`
 
-### Database → MongoDB Atlas
+### Database → MongoDB Atlas ocmpleted
 1. Create free cluster at [cloud.mongodb.com](https://cloud.mongodb.com)
 2. Copy connection string to `MONGODB_URI`
 
